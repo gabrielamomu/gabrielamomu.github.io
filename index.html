@@ -5,64 +5,98 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pase confirmado</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Georgia, serif;
-      background: #f8f7f2;
-      color: #3f4a32;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 24px;
-    }
+  body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    background: linear-gradient(180deg, #9ba282, #eef0e7);
+    color: #26331f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 22px;
+  }
 
-    .card {
-      background: white;
-      max-width: 420px;
-      width: 100%;
-      text-align: center;
-      border-radius: 24px;
-      padding: 36px 26px;
-      box-shadow: 0 10px 30px rgba(63, 74, 50, 0.15);
-      border: 1px solid #d8dccd;
-    }
+  .card {
+    position: relative;
+    background: #fffdf7;
+    max-width: 430px;
+    width: 100%;
+    text-align: center;
+    border-radius: 28px;
+    padding: 42px 28px 34px;
+    box-shadow: 0 18px 45px rgba(38, 51, 31, 0.22);
+    border: 1px solid #d8caa3;
+    overflow: hidden;
+  }
 
-    h1 {
-      margin: 0;
-      font-size: 32px;
-      color: #3f4a32;
-    }
+  .card::before {
+    content: "✦ ❦ ✦";
+    display: block;
+    color: #d9c49a;
+    font-size: 24px;
+    margin-bottom: 10px;
+    letter-spacing: 8px;
+  }
 
-    .thanks {
-      font-size: 22px;
-      margin: 10px 0 28px;
-    }
+  h1 {
+    margin: 0;
+    font-size: 38px;
+    color: #26331f;
+    letter-spacing: 0.5px;
+  }
 
-    .info {
-      font-size: 18px;
-      line-height: 1.6;
-      margin-bottom: 24px;
-    }
+  .thanks {
+    font-size: 22px;
+    margin: 8px 0 28px;
+    color: #bfa66f;
+  }
 
-    .qr {
-      margin: 20px auto;
-      width: 230px;
-      height: 230px;
-    }
+  .info {
+    font-size: 18px;
+    line-height: 1.65;
+    margin-bottom: 24px;
+  }
 
-    .footer {
-      font-size: 15px;
-      margin-top: 20px;
-      color: #5f6b4c;
-    }
+  .info strong {
+    color: #26331f;
+  }
 
-    .code {
-      font-size: 13px;
-      margin-top: 12px;
-      color: #7a8468;
-    }
-  </style>
+  .qr {
+    margin: 18px auto;
+    width: 235px;
+    height: 235px;
+    padding: 12px;
+    background: white;
+    border: 1px solid #d8caa3;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(38, 51, 31, 0.12);
+  }
+
+  .footer {
+    font-size: 15px;
+    margin-top: 22px;
+    color: #3f4a32;
+  }
+
+  #whatsappBtn button {
+    margin-top: 16px;
+    padding: 12px 18px;
+    border-radius: 14px;
+    border: none;
+    background: #3f4a32;
+    color: #fffdf7;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 15px;
+  }
+
+  .code {
+    font-size: 13px;
+    margin-top: 16px;
+    color: #8b7a4e;
+    letter-spacing: 1px;
+  }
+</style>
 </head>
 <body>
 
